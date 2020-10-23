@@ -25,13 +25,14 @@ update: distupdate generate_proto
 vet:
 	go mod tidy
 	go fmt ./...
+	# golint is currently disabled, because there are 170 lint-errors after forking.
 	# golint -set_exit_status ./... 
 	go vet ./...
 	go test -race ./...
 
 docs:
 	# pkg.go.dev is only updated after someone has requested the version: https://stackoverflow.com/a/61974058/4353819
-	curl https://sum.golang.org/lookup/github.com/bendiknesbo/builder@$(version)
+	curl https://sum.golang.org/lookup/github.com/bendiknesbo/libphonenumber@$(version)
 
 version:
 	@echo $(version)
