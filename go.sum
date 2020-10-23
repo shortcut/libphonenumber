@@ -1,0 +1,6 @@
+github.com/bendiknesbo/builder v1.0.0 h1:Rx19nfL92UbI4cmfrNjijaUNL+315iExymIqB11lJsQ=
+github.com/bendiknesbo/builder v1.0.0/go.mod h1:+ImhOVrPaDvZuSiysM60XR3GDnLxCoDoh0YN4EpNQuw=
+github.com/golang/protobuf v1.0.0 h1:lsek0oXi8iFE9L+EXARyHIjU5rlWIhhTkjDz3vHhWWQ=
+github.com/golang/protobuf v1.0.0/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
+golang.org/x/sync v0.0.0-20201020160332-67f06af15bc9 h1:SQFwaSi55rU7vdNs9Yr0Z324VNlrF+0wMqRXT4St8ck=
+golang.org/x/sync v0.0.0-20201020160332-67f06af15bc9/go.mod h1:RxMgew5VJxzue5/jJTE5uejpjVlOe/izrB70Jof72aM=

@@ -1,4 +1,5 @@
 WHOAMI=$(shell whoami)
+version = $(shell git describe --tags)
 
 SED_I = sed -i
 ifeq ($(shell uname -s), Darwin)
@@ -20,3 +21,19 @@ distupdate:
 	git clone --depth 1 https://github.com/googlei18n/libphonenumber.git ./google_libphonenumber/
 
 update: distupdate generate_proto
+
+vet:
+	go mod tidy
+	go fmt ./...
+	# golint -set_exit_status ./... 
+	go vet ./...
+	go test -race ./...
+
+docs:
+	# pkg.go.dev is only updated after someone has requested the version: https://stackoverflow.com/a/61974058/4353819
+	curl https://sum.golang.org/lookup/github.com/bendiknesbo/builder@$(version)
+
+version:
+	@echo $(version)
+
+.PHONY: update distupdate generate_proto vet docs version

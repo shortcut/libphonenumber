@@ -9,7 +9,7 @@ import (
 	"sync"
 	"unicode"
 
-	"github.com/ttacon/builder"
+	"github.com/bendiknesbo/builder"
 
 	"github.com/golang/protobuf/proto"
 )
