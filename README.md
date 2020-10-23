@@ -1,6 +1,10 @@
 libphonenumber
 ==============
 
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/bendiknesbo/libphonenumber)](https://pkg.go.dev/github.com/bendiknesbo/libphonenumber)
+[![GitHubActions](https://github.com/bendiknesbo/libphonenumber/workflows/Test/badge.svg)](https://github.com/bendiknesbo/libphonenumber/actions?query=workflow%3ATest)
+
+
 golang port of Google's libphonenumber
 
 This is a port of https://github.com/ttacon/libphonenumber
