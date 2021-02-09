@@ -1,3 +1,7 @@
 *.cov
 vendor/
 google_libphonenumber/
+
+#IDE
+.vscode
+.idea

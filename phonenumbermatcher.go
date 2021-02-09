@@ -5,7 +5,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/bendiknesbo/builder"
+	builder "github.com/shortcut/insertablebuffer"
 )
 
 type PhoneNumberMatcher struct {

@@ -9,9 +9,8 @@ import (
 	"sync"
 	"unicode"
 
-	"github.com/bendiknesbo/builder"
-
 	"github.com/golang/protobuf/proto"
+	builder "github.com/shortcut/insertablebuffer"
 )
 
 const (

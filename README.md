@@ -1,8 +1,8 @@
 libphonenumber
 ==============
 
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/bendiknesbo/libphonenumber)](https://pkg.go.dev/github.com/bendiknesbo/libphonenumber)
-[![GitHubActions](https://github.com/bendiknesbo/libphonenumber/workflows/Test/badge.svg)](https://github.com/bendiknesbo/libphonenumber/actions?query=workflow%3ATest)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/shortcut/libphonenumber)](https://pkg.go.dev/github.com/shortcut/libphonenumber)
+[![GitHubActions](https://github.com/shortcut/libphonenumber/workflows/Test/badge.svg)](https://github.com/shortcut/libphonenumber/actions?query=workflow%3ATest)
 
 
 golang port of Google's libphonenumber
