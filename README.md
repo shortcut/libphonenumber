@@ -5,7 +5,7 @@ libphonenumber
 [![GitHubActions](https://github.com/shortcut/libphonenumber/workflows/Test/badge.svg)](https://github.com/shortcut/libphonenumber/actions?query=workflow%3ATest)
 
 
-golang port of Google's libphonenumber
+golang port of [Google's libphonenumber](https://github.com/google/libphonenumber)
 
 This is a port of https://github.com/ttacon/libphonenumber
 
@@ -14,7 +14,8 @@ Forked to add go module-version.
 Status
 ======
 
-This library is fully stable and is used in production by several companies.
+This library is fully stable and is used in production.  
+When [Google's libphonenumber](https://github.com/google/libphonenumber) is updated, run `make update`, commit `metagen.go`, and push a new sem-ver tag, and then run `make docs`, to distribute the version.
 
 Examples
 ========
